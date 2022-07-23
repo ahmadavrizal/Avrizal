@@ -1,0 +1,91 @@
+Koperasi simpan pinjam merupakan  lembaga keuangan non bank yang bertugas memberikan pelayanan kepada masyarakat berupa pinjaman uang, simpanan sukarela, simpanan wajib, simpanan inti, dan berbagai instansi pemerintah yang mengalami kelebihan dana.
+Jenis - jenis produk pinjaman yang ada di koperasi simpan pinjam :
+1. Pinjaman Musiman
+Pinjaman musiman adalah pinjaman yang dipinjamkan kepada anggota atau calon anggota setiap bulan sebagai modal kerja. Setiap bulan, debitur hanya perlu membayar bunga dan pembayaran produk  pinjaman utama pada akhir jangka waktu atau jatuh tempo.
+2. Pinjaman Angsuran
+Pinjaman angsuran adalah pinjaman yang diberikan kepada anggota atau pemangku kepentingan sebagai modal kerja sampai dengan  84 bulan atau 7 tahun  secara angsuran atau angsuran.
+2.2.2 Data
+Sebuah Dataset adalah kumpulan dari berbagai objek dan atribut. Atribut juga dikenal sebagai variabel, bidang, karakteristik, atau fitur. Meskipun objek adalah kumpulan dari berbagai atribut. Objek  juga dikenal sebagai kumpulan data, titik, kasus, sampel, entitas, atau instance.
+Tipe - Tipe dari himpunan data (data-set) anatara lain
+1. Data Matrix
+Jika objek data memiliki kumpulan atribut numerik yang sama,  objek data  dapat ditampilkan sebagai titik dalam ruang multidimensi, dan setiap dimensi mewakili atribut yang berbeda.
+2. Data Dokumen 
+Untuk tipe data dokumen, setiap dokumen adalah "konsep" vektor. Setiap suku merupakan  komponen dari vektor. Nilai setiap komponen menunjukkan berapa kali istilah muncul dalam  dokumen.
+3. Data Transaksi
+Data transaksi adalah jenis catatan khusus di mana setiap catatan (transaksi) berisi satu set item.
+4. Data Graph
+Data graf adalah data graf yang terdiri dari simpul (node) dan ridge (tepi).
+2.2.3 Data Mining
+Data mining adalah proses menganalisis dan mengekstrak pengetahuan secara otomatis menggunakan satu atau lebih teknik pembelajaran komputer.
+Data mining adalah proses interaktif dan interaktif untuk menemukan pola atau model yang benar-benar baru yang dapat dengan mudah dipahami dari database yang sangat besar (large databases).
+Data mining mencari database untuk data, tren, atau pola yang diinginkan  untuk membuat keputusan di masa depan. Pola ini dikenali oleh alat tertentu yang  berguna saat menganalisis data dengan alat pendukung lainnya.
+Data mining dibagi menjadi beberapa kelompok berdasarkan tugas yang dapat dilakukan, yaitu :
+1. Penjelasan 
+Peneliti mungkin perlu mencari data, menganalisis seluruh data, atau menemukan gambaran lengkap tentang pola dan tren yang unik untuk data yang diperoleh. Penjelasan pola dan tren seringkali memiliki kekuatan penjelas yang mengarah pada penemuan pola dan tren dalam data  hasil analisis. 
+2. Perkiraan 
+Estimasi mirip dengan klasifikasi, kecuali bahwa variabel target ditentukan secara numerik daripada kategoris. Model dibangun dengan dataset lengkap yang memberikan nilai variabel sebagai nilai target yang diprediksi. Pada pemeriksaan selanjutnya, nilai estimasi variabel target diperoleh dari data yang diperoleh berdasarkan nilai  variabel prediktor.
+3. Prakiraan 
+Prakiraan mirip dengan klasifikasi dan perkiraan, kecuali bahwa nilai dalam  hasil data diprediksi di masa depan. Anda juga dapat memprediksi hasil dari data Anda menggunakan beberapa metode dan teknik yang digunakan untuk klasifikasi dan estimasi. 
+4. Kalsifikasi 
+Mendapatkan variabel target untuk kategori.
+5. Pengelompokan 
+Clustering adalah pengelompokan data, mengamati atau memperhatikannya, dan membentuk kelas objek yang memiliki kesamaan. Cluster adalah kumpulan dataset yang memiliki kesamaan satu sama lain. 
+6. Asosiasi
+Tugas mengasosiasi dalam data mining adalah menemukan atribut-atribut yang muncul pada saat yang bersamaan. Dalam dunia bisnis, lebih sering disebut analisis keranjang pasar.
+Proses Knowledge Discovery (KDD) dalam database yang merupakan tahapan proses saat menggunakan data mining adalah sebagai berikut: 
+1. Ketahui domain aplikasi dan pahami untuk menelepon pengetahuan sebelumnya dan  apa target pengguna.
+2. Buat kumpulan data target  yang berisi pemilihan data dan fokus pada subset data.
+3. Pembersihan konversi data mencakup opsi penghapusan kebisingan, outlier, nilai yang hilang, dan pemilihan dan pengurangan fitur ukuran.
+4. Penggunaan algoritma data mining yang terdiri dari asosiasi, sekuensial, klasifikasi, pengelompokan, dll.
+5. Menafsirkan, mengevaluasi, dan memvisualisasikan pola ada yang baru dan menarik  
+Faktor-faktor yang mendorong kemajuan luar biasa dalam penambangan data adalah: 
+1. Pertumbuhan arsip yang cepat.
+2. Penyimpanan data di gudang data untuk memberikan akses seluruh perusahaan  ke  database terpercaya.
+3. Akses data melalui navigasi web dan internet semakin meningkat.
+4. Pengembangan teknologi perangkat lunak untuk data mining.
+2.2.4 Klasifikasi 
+Klasifikasi adalah contoh model atau proses penambangan data, dan klasifikasi  diberikan sekumpulan data yang bertujuan untuk mengklasifikasikan model ke dalam kategori atau kelas yang sesuai. Kemudian gunakan model ini untuk mengklasifikasikan record yang model kelasnya sebelumnya tidak diketahui.
+Komponen-komponen utama dari porses klasifikasi anatara lain :
+1. Kelas, merupakan variabel terikat yang merepresentasikan label hasil klasifikasi data.
+2. Prediktor adalah variabel independen dari  model berdasarkan karakteristik atribut data yang diklasifikasikan. 
+3. Dataset pelatihan adalah dataset lengkap yang berisi kelas prediktor yang melatih model sehingga dapat dikelompokkan ke dalam kelas yang benar.
+4. Dataset eksperimental adalah plot data yang berisi beberapa dataset yang dikelompokkan menjadi sebuah model dengan mengetahui akurasi dan model yang  dibuat.
+2.2.5 Pohon Keputusan
+Decision Tree adalah klasifikasi dan teknik prediksi yang sangat kuat dan terkenal untuk mengubah fakta yang sangat besar menjadi aturan yang diterapkan dalam Decision Tree ini. Pohon keputusan juga membantu Anda menjelajahi data dan menemukan hubungan tersembunyi antara sekumpulan variabel input potensial yang merupakan variabel target. Pohon keputusan dapat menggabungkan eksplorasi data dan pemodelan data, sehingga berguna untuk mengambil langkah-langkah awal  proses pemodelan, yang  dipilih dari awal hingga akhir, berbeda dengan  teknik lainnya.
+Pohon keputusan adalah  struktur yang dapat digunakan untuk membagi kumpulan data  besar menjadi kumpulan kumpulan data yang lebih kecil dengan menerapkan beberapa aturan keputusan. Untuk setiap seri split, anggota dataset akan menghasilkan dengan anggota lainnya.
+Algoritma yang digunakan untuk membangun pohon keputusan adalah algoritma ID3, CART, dan C4.5 (pengembangan algoritma ID3).
+Proses pembuatan pohon keputusan dengan mengubah bentuk data menjadi model pohon, mentransformasikan model menjadi aturan, dan menyederhanakan aturan.
+Pada pohon keputusan terdapat 3 jenis nose, yaitu :
+1.Rote Node, adalah simpul atas. Node ini tidak memiliki entri dan  tidak dapat memiliki jalan keluar atau beberapa jalan keluar.
+2. Internal Node, adalah simpul cabang. Node ini memiliki satu input dan setidaknya dua output. 
+3. Leaf Node atau Terminal Node, adalah simpul terakhir. Node  ini hanya memiliki satu input dan tidak ada output.
+2.2.6 Algoritma C4.5
+Algoritma C4.5 merupakan sekumpulan algoritma pohon keputusan (decision tree). Algoritma ini memiliki input berupa contoh dan contoh pelatihan. Contoh pelatihan data sampel yang  digunakan untuk membangun  pohon yang divalidasi. Sampel, di sisi lain, adalah beberapa bagian data yang nantinya akan digunakan sebagai analisis parameter saat mengklasifikasikan data.
+Algoritma C4.5 merupakan evolusi lebih lanjut dari algoritma ID3 dan dikembangkan untuk mengatasi beberapa data yang  hilang atau rusak dalam file data yang disiapkan. Algoritma C4.5 memiliki kelebihan yaitu mudah dipahami, fleksibel, dan menarik karena dapat dijelaskan dari perspektif telepon (gambar) pengambilan keputusan.
+Secara umum algoritma C4.5 untuk membangun pohon keputusan adalah sebagai berikut :
+1. Pilih atribut sebagai akar.
+2. Buat cabang untuk tiap-tiap nilai.
+3. Bagi kasus dalam cabang.
+4. Ulangi proses untuk setiap cabang sampai semua kasus pada cabang memiliki kelas yang sama.
+Untuk memilih atribut sebagai root, didasarkan pada nilai boost tertinggi dari atribut yang ada. Rumus berikut digunakan untuk menghitung keuntungan.
+???????? ??, ??  = ?????????????? ??  - |????||??|????=1 * ??????????????(????)........... (2.1)
+Keterangan:
+S : himpunan kasus
+A : atribut
+n : jumlah partisi atribut A
+|Si|: jumlah kasus pada partisi ke-i
+|S| : jumlah kasus dalam S
+Keterangan:
+S: himpunan kasus
+A: fitur
+n: jumlah partisi S
+pi: proporsi dari ???? terhadap S
+Beberapa tahapan data mining pada penelitian diantaranya :
+1. Mempersiapkan data-data yang akan digunakan dalam penelitian, Misal, data nominal pinjaman dan data pengajuan pinjaman.
+2. Melakukan pengolahan data awal atau pembersihan data, yaitu dengan menentukan atribut apa saja yang akan digunakan dan diperlukan dalam penelitan, menghilangkan atribut yang tidak diperlukan dan membersihkan data yang kosong maupun data lama yang sudah tidak digunakan kembali, Misal, atribut bank pinjaman, data pinjaman uang lama, dan sebagainya.
+3. Membagi data menjadi dua bagian yaitu 75% data training dan 25% data testing dari kesuluran data.
+4. Penerapan algoritma C4.5 pada data dengan menghitung nilai pinjaman atau nominal pinjaman dari entropy dan gain. Nilai gain tertinggi akan digunakan sebagai akar dari awal pinjaman.
+5. Pembuatan pohon keputusan dari hasil entropy dan gain
+6. Pembuatan data dari pohon keputusan untuk melengkapi data pinjaman yang masih kosong.
+7. pembuatan database untuk penyimpanan data yang sudah terkumpul dalam satu file.
+8. penghitungan nilai total pinjaman dengan total bunga yang akan didapatkan dari hasil berapa lama akan meminjam.

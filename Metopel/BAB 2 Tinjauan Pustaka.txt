@@ -1,0 +1,17 @@
+BAB II
+TINJAUAN PUSTAKA
+2.1 Tinjauan Studi
+Beberapa hasil dari penelitian yang saya lakukan adalah sebagai berikut :
+1. "Penerapan Data Mining Untuk Menentukan Besar Pinjaman Koperasi Simpan Pinjam " 
+Penelitian yang membahas tentang bagaimana caranya merancang sebuah aplkasi yang dimana menerapkan beberapa teknik data mining dalam suatu pendataan pinjaman di suatu Koperasi Simpan Pinjam di Kecamatan Boja. Tujuan dilakukannya penelitian ini yaitu untuk menyelesaikan permasalahan penentuan besar maupun kecilnya pinjaman yang akan di pinjam dari koperasi tersebut dengan data mining, karena metode yang digunakan pada umumnya masih menganalisis data nasabah dengan total berapa lama waktu yang dibutuhkan untuk para peminjam tersebut akan mengembalikan uangnya ke dalam target awal yang sudah dijanjikan. Teknik yang akan diterapkan dalam aplikasi yang dibuat adalah dengan cara pohon keputusan dan algoritma yang di pakai adalah algoritma C4.5.
+
+2. "Klasifikasi Masa Studi Mahasiswa Fakultas Teknik Informatika Universitas Gunadarma Depok, Jawa Barat Menggunakan Algoritma C4.5."
+	Penelitian ini membahas tentang pengklasifikasian Fasilitas Kesehatan Provinsi di Indonesia. Penelitian dilakukan dengan menggunakan metode pohon keputusan dan algoritma C4.5. data yang digunakan sebanyak 9.993 data fasilitas kesehatan yang telah lulus dari total data 10533 data yang ada. Atribut yang digunakan terdiri dari Jumlah provinsi, Nama Kota, Nama Fasilitas, Nilai Fasilitas.
+
+3. "Penerapan Algoritma C4.5. Untuk Penentuan Jumlah Provinsi dari Fasilitas Kesehatan"
+	Penelitian ini membahas tentang penggunaan pendataan teknik kasifikasi data mining dengan menggunakan algortima C4.5. yang ditetapkan dalam menentukan nama provinsi dalam bidang kesehatan yang akan diperoleh saat melakukan pendataan terhadap nama fasilitas sesuai dengan nilai fasilitas yang terdapat dalam fasilitas tersebut. Parameter digunakan sebgai data pemilihan kota/provinsi pada tahun 2019/2020. Hasil eskperimen dan evaluasi menunjukan tingkat cross validation, yaitu 97,5% dan tanpa cross validation, yaitu 91,17%
+
+4. "Klasifikasi Data Nasabah Sebuah Asuransi menggunakan Algoritma C4.5."
+	Penelitian ini membahas tentang pengklasifikasian data nasabah pada sebuah pinjaman yang akan disalurhakn sehungga dapat menenmukan pola status peminjam sebagai bahan analisis dalam menentukan jumlah waktu atau tenggat waktu yang akan diambil untuk masa mendatang. Atribut yang digunakan dalam penelitian ini adalah penghasilan, jumlah waktu, tenggat waktu, nominal pinjaman, dan cara pembayan. Hasil yang didapat dalam penelitian ini adalah aplikasi yang dapat menyimpaan beberap data yang dimana pinjaman yang sudah dilakukan kedapa seseorang, agar bukti sewaktu peminjaman masih ada dengan menggunakan bunga sebesar 2% dalam peminjaman, dan supaya bisa mengetahui berapa pembayaran yang harus dilakukan setiap bulannya ketika sudah mendapatkan bunga 2% dengan jumlah rata - rata pinjaman yang diberikan. 
+
+	Dari beberapa penelitian terkait yang telah disebutkan diatas, maka didapatkan state of the art sebagai berikut

@@ -1,0 +1,32 @@
+Intel® Core™ i3-1220PE 4,20 Ghz
+Penelitian ini menggunakan data dari sejarah “KPR” Boja-Kendal yang berjumlah 467 record. Terdiri dari 15 atribut :  NO, Cabang, Nama Debitur, No Kredit, Alamat, Jenis Kelamin, Umur, Agama, Status, Pekerjaan, Jumlah Tanggungan, Nilai Tanggungan, Jangka Waktu, Anguran Per-Bulan, Keterangan.
+Data kualitatif adalah data berformat kata, dan data yang digunakan dalam penelitian ini adalah data kualitatif seperti nama industri, nama debitur, alamat, agama, dan pekerjaan.
+
+Data kuantitatif adalah data berupa angka dan nilai yang dapat dihitung secara andal menggunakan statistik atau matematika. Fungsi  data kuantitatif adalah untuk menentukan jumlah objek data  yang akan diselidiki. Data kuantitatif adalah data yang menunjukkan kemungkinan data yang digunakan dalam penelitian yaitu No Kredit, Umur, Jumlah Tanggungan, Nilai Tanggungan, Jangka Waktu, Angsuran Per-Bulan.
+Metode yang digunakan pada penelitian adalah Algoritma C4.5, Dalam permodelan ini algortima C4.5 akan dicari peformanya yaitu peforma vector dan confusion matrix. Data yang digunakan sudah melalui proses cleaning data, untuk melakukan pengukuran penelitian ini pada aplikasi Rapid Miner.
+Gambar 3.1 Model tahap menemukan Accuracy dan Confusion Matrix
+Dalam pengujian data set pertama dilakukan adalah melakukan proses cleaning data, dari 9993 data setelah dilakukan data cleaning menghasilkan 7000 data set baru.
+Uji validasi menggunakan cross-validation dengan  2, 5, 7, dan 10 pengujian, dan uji validasi split  dengan empat uji coba dengan  data latih 60%, 70%, 80%, dan 90%. RapidMiner menjalankan proses pengujian validasi mutual dan split. Hal ini dilakukan dengan pemodelan menggunakan metode pohon keputusan C4.5 dan memasukkan model aplikasi dan kinerja. Validasi adalah proses  mengevaluasi akurasi prediksi suatu model. Teknik validasi membagi data secara acak menjadi k buah yang disebut validasi silang. Cross-validation hanya melakukan konvolusi data atau jumlah partisi. Validasi silang menghasilkan matriks kebingungan dan akurasi model.
+
+Keterangan :
+Entropy (s)
+S = Himpunan Kasus
+A = Atribut
+N= Jumlah Partisi S
+|Si| = jumlah Jumlah kasus pada partisi ke i
+pi = Proposi dari Si terhadap S
+
+Kumpulan data dibaca Identifikasi sampel  data. Kemudian hitung entropi (S) dari semua atribut, kemudian  gain tertinggi dari semua atribut, dan kemudian dapatkan atribut yang dijadikan root/node. Buat cabang untuk setiap nilai, pisahkan kasus di cabang, dan ulangi perhitungan keuntungan sampai semua data berada di kelas yang sama. Atribut yang  dipilih tidak akan lagi disertakan dalam perhitungan. Untuk dataset dalam penelitian ini terdiri dari dua grade, yaitu debitur yang memenuhi syarat yang ditandai dengan  (+) dan debitur yang tidak memenuhi syarat yang ditunjukkan dengan  (-).
+
+Saat menghitung algoritma C4.5, dataset dibagi menjadi 70 data latih dan satu data uji.
+
+1. Ini menghitung jumlah kasus yang diklasifikasikan ke dalam dua kelas, memenuhi syarat dan tidak memenuhi syarat, dan nilai entropi semua atribut. Usia, kepribadian, pendapatan, jumlah tanggungan, agunan. Kemudian cari nilai boost untuk setiap atribut.
+2. Sebelum melakukan perhitungan gain , hitung entropy dari tiap atribut dengan rumus sebagai berikut ?????????????? = ??? ??=1 - ???? * ??????2 ???? Dengan perhitungan yang sama , dilakukan pada atribut berdasarkan penglompokan jumlah kasus.
+3. Kemudian menghitung nilai gain dan menentukan nilai maksimum untuk menentukan node atau rute pertama. Rumus untuk menghitung keuntungan adalah sebagai berikut.
+4. Ulangi langkah Ke- 3 hingga semua atribut dan subset terhitung.
+5. Proses pembentukan pohon keputusan terhenti jika sudah tidak ada atribut yang dipartisi dan semua tuple dalam node N telah memiliki kelas yang sama.
+
+Tahapan Evaluasi Perhitungan Akurasi dan Confusion Matrix
+Pada tahap ini, mengevaluasi keakuratan hasil yang diperoleh dari model yang digunakan. Gunakan matriks kebingungan yang  disediakan oleh kerangka kerja RapidMiner.
+
+Dari tabel di atas dapat hitung akurasinya sebagai berikut:
